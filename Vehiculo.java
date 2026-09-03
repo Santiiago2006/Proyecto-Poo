@@ -60,4 +60,9 @@ public class Vehiculo {
     public void setDisponible(boolean disponible) {
         this.disponible = disponible;
     }
+    @Override
+    public String toString() {
+        return "Vehiculo" +
+                "placa='" + placa + ", año=" + año + ", precio=" + precio + ", disponible=" + disponible ;
+    }
 }
