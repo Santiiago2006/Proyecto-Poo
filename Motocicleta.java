@@ -13,19 +13,19 @@ public class Motocicleta extends Vehiculo {
         this.autonomiaTanque = 0.0;
     }
     
-    public Motocicleta(String placa, int anio, double precio,
+    public Motocicleta(String placa, int año, double precio,
                         int cilindrajeCC, String tipoMoto, boolean tieneMaletero) {
-        super(placa, anio, precio);
+        super(placa, año, precio);
         this.cilindrajeCC = cilindrajeCC;
         this.tipoMoto = tipoMoto;
         this.tieneMaletero = tieneMaletero;
         this.autonomiaTanque = 0.0;
     }
 
-    public Motocicleta(String placa, int anio, double precio, boolean disponible,
+    public Motocicleta(String placa, int año, double precio, boolean disponible,
                         int cilindrajeCC, String tipoMoto,
                         boolean tieneMaletero, double autonomiaTanque) {
-        super(placa, anio, precio, disponible);
+        super(placa, año, precio, disponible);
         this.cilindrajeCC = cilindrajeCC;
         this.tipoMoto = tipoMoto;
         this.tieneMaletero = tieneMaletero;
@@ -61,6 +61,10 @@ public class Motocicleta extends Vehiculo {
 
     public void setAutonomiaTanque(double autonomiaTanque) {
         this.autonomiaTanque = autonomiaTanque;
+    }
+    @Override
+    public String toString() {
+        return "Motocicleta" +"placa='" + placa + ", año=" + año +", precio=" + precio +", disponible=" + disponible +", cilindrajeCC=" + cilindrajeCC +", tipoMoto='" + tipoMoto   +", tieneMaletero=" + tieneMaletero +", autonomiaTanque=" + autonomiaTanque;
     }
 
 
