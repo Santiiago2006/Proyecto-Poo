@@ -31,5 +31,37 @@ public class Motocicleta extends Vehiculo {
         this.tieneMaletero = tieneMaletero;
         this.autonomiaTanque = autonomiaTanque;
     }
+    public int getCilindrajeCC() {
+        return cilindrajeCC;
+    }
+
+    public void setCilindrajeCC(int cilindrajeCC) {
+        this.cilindrajeCC = cilindrajeCC;
+    }
+
+    public String getTipoMoto() {
+        return tipoMoto;
+    }
+
+    public void setTipoMoto(String tipoMoto) {
+        this.tipoMoto = tipoMoto;
+    }
+
+    public boolean isTieneMaletero() {
+        return tieneMaletero;
+    }
+
+    public void setTieneMaletero(boolean tieneMaletero) {
+        this.tieneMaletero = tieneMaletero;
+    }
+
+    public double getAutonomiaTanque() {
+        return autonomiaTanque;
+    }
+
+    public void setAutonomiaTanque(double autonomiaTanque) {
+        this.autonomiaTanque = autonomiaTanque;
+    }
+
 
 }
