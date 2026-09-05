@@ -31,4 +31,35 @@ public class Camion extends Vehiculo {
         this.tipoCarroceria = tipoCarroceria;
         this.tieneRemolque = tieneRemolque;
     }
+     public double getCapacidadCarga() {
+        return capacidadCarga;
+    }
+
+    public void setCapacidadCarga(double capacidadCarga) {
+        this.capacidadCarga = capacidadCarga;
+    }
+
+    public int getNumEjes() {
+        return numEjes;
+    }
+
+    public void setNumEjes(int numEjes) {
+        this.numEjes = numEjes;
+    }
+
+    public String getTipoCarroceria() {
+        return tipoCarroceria;
+    }
+
+    public void setTipoCarroceria(String tipoCarroceria) {
+        this.tipoCarroceria = tipoCarroceria;
+    }
+
+    public boolean isTieneRemolque() {
+        return tieneRemolque;
+    }
+
+    public void setTieneRemolque(boolean tieneRemolque) {
+        this.tieneRemolque = tieneRemolque;
+    }
 }
