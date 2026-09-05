@@ -22,4 +22,13 @@ public class Camion extends Vehiculo {
         this.tipoCarroceria = tipoCarroceria;
         this.tieneRemolque = false;
     }
+    public Camion(String placa, int año, double precio, boolean disponible,
+                  double capacidadCarga, int numEjes,
+                  String tipoCarroceria, boolean tieneRemolque) {
+        super(placa, año, precio, disponible);
+        this.capacidadCarga = capacidadCarga;
+        this.numEjes = numEjes;
+        this.tipoCarroceria = tipoCarroceria;
+        this.tieneRemolque = tieneRemolque;
+    }
 }
