@@ -1,3 +1,7 @@
+import java.util.ArrayList;
+import java.util.List;
+
+
 public class Main {
 
     public static void main(String[] args) {
@@ -5,8 +9,6 @@ public class Main {
         List<Vehiculo> inventario = new ArrayList<>();
 
         Vehiculo vehiculoGenerico2 = new Vehiculo("XYZ-111", 2020, 45000000.0, true);
-
-        inventario.add(vehiculoGenerico1);
         inventario.add(vehiculoGenerico2);
 
         Automovil auto1 = new Automovil(4, "Automatica");
