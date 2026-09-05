@@ -62,4 +62,9 @@ public class Camion extends Vehiculo {
     public void setTieneRemolque(boolean tieneRemolque) {
         this.tieneRemolque = tieneRemolque;
     }
+    @Override
+    public String toString() {
+        return "Camion" +
+                "placa='" + placa +  ", año=" + año +", precio=" + precio +", disponible=" + disponible +", capacidadCarga=" + capacidadCarga +", numEjes=" + numEjes +", tipoCarroceria='" + tipoCarroceria + ", tieneRemolque=" + tieneRemolque ;
+    }
 }
